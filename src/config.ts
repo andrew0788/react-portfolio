@@ -7,7 +7,7 @@ enum Theme {
 }
 
 export const themeConfig = {
-    [Theme.DESERT]: {
+    [Theme.ABSTRACT]: {
         color: "orange",
         main: theme.colors.orange[600],
         darker: theme.colors.orange[800],
@@ -25,5 +25,5 @@ export const themeConfig = {
 }
 
 export const config = {
-    theme: Theme.DESERT
+    theme: Theme.ABSTRACT
 }
